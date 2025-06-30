@@ -20,7 +20,7 @@ mongoose
     console.log(err)
   })
 
-const app = express()
+const app = express();
 
 // for allowing json object in req body
 app.use(express.json())
